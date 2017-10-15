@@ -1,0 +1,121 @@
+/*
+selector {property:value;}
+*/
+
+h1{
+  font-family: 'Raleway';
+}
+
+h2{
+  font-family: 'Roboto';
+}
+/*target-boxing*/
+/*div{
+  border: 1px solid red;
+}*/
+
+/*logo*/
+#logo1{
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+/*logo end*/
+
+/*nav{
+  border: 1px solid red;
+}*/
+
+.menuButton{
+  border: solid 2px red;
+
+
+}
+
+/*li{
+  font-style:
+}*/
+
+
+#indexpage .subnavigation li:nth-child(1){
+  background-color: yellow;
+
+}
+#portfoliopage .subnavigation li:nth-child(2){
+  background-color: yellow;
+
+}
+#aboutpage .subnavigation li:nth-child(3){
+  background-color: yellow;
+
+}
+#contactpage .subnavigation li:nth-child(4){
+  background-color: yellow;
+
+}
+
+.target{
+  color: blue;
+  font-style: red;
+}
+
+.orbit-slide{
+  /*margin: 10px;*/
+}
+
+body{
+  /*background: repeating-linear-gradient(red, yellow 10%, green 20%);*/
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-image: url('../images/paw_icon_2.jpg');
+
+}
+
+/*contact page*/
+
+.tealbg {background-color: teal;
+
+}
+form{
+  margin: 20px;
+}
+
+
+
+/* splash page*/
+.bigPaw{
+  margin: 20x;
+  padding: 20px;
+  position: fixed;
+  background-image: url(../images/paw_icon_big.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+
+}
+
+/*index page*/
+.introText{
+  font-style: 20px;
+}
+
+/*about page*/
+.aboutBorder{
+    font-style: 20px white;
+
+    outline: 1px solid rgb(87, 181, 87);
+    border: 7px solid white;
+
+    background: rgb(87, 181, 87);
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+
+}
+
+/*portfolio page*/
+.portfolioImage{
+  /*border: 10px solid blue;*/
+  /*margin: 10px 10px 10px 10px;*/
+  padding: 10px 10px 10px 10px;
+
+}
